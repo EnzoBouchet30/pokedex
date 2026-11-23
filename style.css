@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(80, 209, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#pokemonName {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#search {
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#search:hover {
+    background-color: rgb(255, 47, 47);
+}
+
+#name {
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#picture {
+    width: 200px;
+}
